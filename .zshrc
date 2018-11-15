@@ -1,4 +1,5 @@
 GIT_PS1_SHOWCOLORHINTS=true
+
 GIT_PS1_SHOWDIRTYSTATE=true
 GIT_PS1_STATESEPARATOR=""
 
@@ -98,6 +99,15 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO && killall
 alias mvim='mvim >& /dev/null'
 alias dc=docker-compose
 alias awsconsole='ssh ec2-user@awsconsole.avatarfleet.com'
+alias asuiteTest='ssh ec2-user@asuite-test.avatarfleet.com'
+alias asuiteDemo='ssh ec2-user@asuite-demo.avatarfleet.com'
+alias asuiteDev='ssh ec2-user@asuite-dev.avatarfleet.com'
+alias asuite1='ssh ec2-user@asuite1.avatarfleet.com'
+alias asuite2='ssh ec2-user@asuite2.avatarfleet.com'
+alias asuite3='ssh ec2-user@asuite3.avatarfleet.com'
+alias asuite4='ssh ec2-user@asuite4.avatarfleet.com'
+alias acProd='ssh root@nacsb.applicantcare.com'
+alias acBeta='ssh root@nacsbbeta.applicantcare.com'
 
 
 # Functions
