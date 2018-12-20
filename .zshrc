@@ -98,6 +98,7 @@ alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES && killal
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
 alias mvim='mvim >& /dev/null'
 alias dc=docker-compose
+alias gch='git checkout'
 alias awsconsole='ssh ec2-user@awsconsole.avatarfleet.com'
 alias asuiteTest='ssh ec2-user@asuite-test.avatarfleet.com'
 alias asuiteDemo='ssh ec2-user@asuite-demo.avatarfleet.com'
