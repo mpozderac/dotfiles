@@ -111,6 +111,7 @@ alias asuite3='ssh ec2-user@asuite3.avatarfleet.com'
 alias asuite4='ssh ec2-user@asuite4.avatarfleet.com'
 alias acProd='ssh root@nacsb.applicantcare.com'
 alias acBeta='ssh root@nacsbbeta.applicantcare.com'
+alias acEject='ssh root@eject.applicantcare.com'
 
 
 # Functions
