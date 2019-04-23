@@ -99,6 +99,7 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO && killall
 alias mvim='mvim >& /dev/null'
 alias dc=docker-compose
 alias gch='git checkout'
+alias gpu='git push -u origin'
 alias git-prune-match-remote='git fetch --prune && git branch -r | awk "{print \$1}" | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk "{print \$1}" | xargs git branch -d'
 alias awsconsole='ssh ec2-user@awsconsole.avatarfleet.com'
 alias asuiteTest='ssh ec2-user@asuite-test.avatarfleet.com'
@@ -113,6 +114,8 @@ alias asuite5='ssh ec2-user@asuite5.avatarfleet.com'
 alias acProd='ssh root@nacsb.applicantcare.com'
 alias acBeta='ssh root@nacsbbeta.applicantcare.com'
 alias acEject='ssh root@eject.applicantcare.com'
+alias flask='docker-compose kill flask celery-worker && docker-compose up flask'
+alias p='docker-compose exec python ptpython -i /af30/scripts/asuite_utility_template.py'
 
 
 # Functions
